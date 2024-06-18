@@ -40,6 +40,25 @@ ul>li>a:active{
 ul>li:hover{
     background-color: gold;/* 鼠标悬停时，导航栏列表项的背景颜色变为金黄色 */
 }
+#elixirs {
+    border-color: rgb(138, 70, 239);
+    border-width: 5px;/* 边框宽度为5像素 */
+    border-style: dotted;/* 边框样式为虚线 */
+    border-radius: 15px;/* 边框圆角半径为15像素 */
+    width: 200px;
+    padding: 0px 20px 20px 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1;
+    float: right;
+  }
+#elixirs h2 {
+    color: #d12c47;
+  }
+#elixirs h3 {
+    color: #d12c47;
+  }
 form {
     margin: 20px auto;
 	display: table;/* 设置为表格布局 */
